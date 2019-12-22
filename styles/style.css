@@ -1,0 +1,232 @@
+#dice {
+  color: white;
+  background: #212D30;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 25px 25px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 270px;
+  margin-top: 30px;
+}
+
+#dice.rolling {
+  color: white;
+  background: #B75220;
+  font-size: 20px;
+}
+
+body {
+  background-color: #736A68;
+  font-family: Arial;
+  font-size: 14px;
+  color: black;
+}
+
+header {
+  background-color: white;
+  height: 120px;
+}
+
+.logo {
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 150px;
+  height: 100px;
+}
+
+#logotext {
+  float: left;
+  color: #212D30;
+  font-family: "Trade Winds", cursive;
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+#text {
+  float: right;
+  font-family: "Trade Winds", cursive;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-right: 50px;
+}
+
+.col-md-2 {
+  background-color: #BAABA8;
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 10px;
+  height: 400px;
+  padding: 25px;
+  border: 2px solid #212D30;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+section {
+  font-family: "Trade Winds", cursive;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#startButton {
+  background-color: #212D30;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+@media (max-width: 1260px) {
+  .col-md-2 {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-md-2 {
+    height: 230px;
+  }
+  header {
+    height: 100px;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 100px;
+    height: 80px;
+  }
+  #logotext {
+    font-size: 20px;
+  }
+  #text {
+    font-size: 20px;
+  }
+  section {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 690px) {
+  header {
+    height: 70px;
+  }
+  .logo {
+    margin-left: 10px;
+    width: 70px;
+    height: 50px;
+  }
+  #logotext {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  #text {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+  section {
+    font-size: 20px;
+  }
+}
+
+.container {
+  text-align: center;
+}
+
+.textdice {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.square {
+  height: 85px;
+  width: 85px;
+  margin: 2px;
+}
+
+.tile {
+  background: #BAABA8;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.board-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 230px;
+  margin-top: 10px;
+  width: 800px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tile.start {
+  background: grey;
+}
+
+.tile.finish {
+  background: #b23b1b;
+}
+
+.character-display {
+  color: white;
+  font-size: 30px;
+}
+
+#character {
+  font-family: "Trade Winds", cursive;
+  font-size: 45px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#token {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #b23b1b;
+}
+
+.winner h1 {
+  font-family: "Trade Winds", cursive;
+  text-align: center;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=style.css.map */
