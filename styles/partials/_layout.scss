@@ -1,0 +1,139 @@
+$background-colour:#736A68;
+$header-background: white;
+$logo-text: #212D30;
+
+body {
+    background-color: $background-colour;
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+}
+
+header {
+    background-color: $header-background;
+    height: 120px;
+}
+
+.logo {
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+#logotext {
+    float: left;
+    color: $logo-text;
+    font-family: "Trade Winds", cursive;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+#text {
+    float: right;
+    font-family: "Trade Winds", cursive;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.col-md-2 {
+    background-color: #BAABA8;
+    font-family: "Josefin Slab", serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 10px;
+    height: 400px;
+    padding: 25px;
+    border: 2px solid $logo-text;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section {
+    font-family: "Trade Winds", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#startButton {
+    background-color: $logo-text;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+@media (max-width: 1260px) {
+    .col-md-2 {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-md-2 {
+        height: 230px;
+    }
+    header {
+        height: 100px;
+    }
+    
+    .logo {
+        margin-left: 20px;
+        width: 100px;
+        height: 80px;
+    }
+    
+    #logotext {
+        font-size: 20px;
+    }
+    
+    #text {
+        font-size: 20px;
+    }
+    section {
+        font-size: 25px;
+    }
+}
+    
+@media (max-width: 690px) {
+    header {
+        height: 70px;
+    }
+    
+    .logo {
+        margin-left: 10px;
+        width: 70px;
+        height: 50px;
+    }
+    
+    #logotext {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    
+    #text {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    section {
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,21 @@
+$background-dice: #212D30;
+
+#dice {
+    color: white;
+    background: $background-dice;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 25px 25px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+
+#dice.rolling {
+    color: white;
+    background: #B75220;
+    font-size: 20px;
+}

@@ -1,0 +1,59 @@
+$background-tile: #BAABA8;
+$tile-start: grey;
+$tile-finish: #b23b1b;
+
+.container {
+    text-align: center;
+}
+
+.textdice {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.square {
+    height: 85px;
+    width: 85px;
+    margin: 2px;
+}
+
+.tile {
+    background: $background-tile;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+    margin-top: 10px;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.tile.start {
+    background: $tile-start;
+}
+
+.tile.finish {
+    background: $tile-finish;
+}
+
+.character-display {
+    color: white;
+    font-size: 30px;
+}
+
+#character {
+    font-family: "Trade Winds", cursive;
+    font-size: 45px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
